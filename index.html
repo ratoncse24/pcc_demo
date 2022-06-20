@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Launch PCC</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Remember to include jQuery :) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+</head>
+<body>
+
+	<div class="wrap" id="wrapper">
+		<div id="launched-text">
+			<h1 id="heading"> We are live</h1>
+			<b id="tagline">World first peer to peer solar grid connected to National Grid</b>
+		</div>
+	  	<div id="launch-button"><button class="button"  onclick="clickToLaunch()">Launch PCC</button></div>
+
+		<div class="loader" id="loader"></div>
+
+		<!-- Modal HTML embedded directly into document -->
+		<div id="ex3" class="modal">
+		  <img src="animation.gif" id="animation">
+		</div>
+	</div>
+
+	<script src="index.js"></script>
+</body>
+</html>
